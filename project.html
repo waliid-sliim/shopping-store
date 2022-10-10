@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Shopping Store</title>
+    <script src="jquery.js"> </script>
+    <link rel="stylesheet" href="addtocart.css">
+    <script src="main.js"></script>
+    
+</head>
+<body>
+    
+    <style>
+    body {
+        background-image: url('https://wallpaper.dog/large/10782717.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }  
+</style>
+    <div class= "container" >
+        <div class = "card" id = "item1">
+            <img src="luis v.png" alt="LUIS VUITTON">
+            <div class = "title">Multicolored Monogram Fit Shirt </div>
+            <div>
+                <label >SIZE : </label>
+                <select >
+                    <option >S</option>
+                    <option >M</option>
+                    <option >L</option>
+                    <option >XL</option>
+                </select>
+            </div>
+            <div class = "title1" id="price1"><b> 1880 DT </b></div>
+            <button  id ="b1" onclick="addToCart()">  Add To Cart </button>
+        </div>
+        <div class = "card" id = "item2">
+            <img src="luis v2.png" alt="LUIS VUITTON">
+            <div class = "title">Multicolored Monogram Board Shorts</div>
+            <div>
+                <label >SIZE : </label>
+                <select >
+                    <option >S</option>
+                    <option >M</option>
+                    <option >L</option>
+                    <option >XL</option>
+                </select>
+            </div>
+            <div class = "title1" id="price2"> <b> 1140 DT</b>  </div>
+            <button id ="b2" onclick="addToCart1()"> Add To Cart </button>
+        </div>
+        <div class = "card" id = "item3">
+            <img src="luis v3.png" alt="LUIS VUITTON">
+            <div class = "title"> Versace Silk Shirt</div>
+            <div>
+                <label >SIZE : </label>
+                <select >
+                    <option >S</option>
+                    <option >M</option>
+                    <option >L</option>
+                    <option >XL</option>
+                </select>
+            </div>
+            <div class = "title1" id="price3"> <b> 2400 DT</b>  </div>
+            <button onclick="addToCart2()"> Add To Cart </button>
+            
+    </div>
+    
+    <div class="columns"  >
+        <ul class="price">
+          <li class="header">Cart</li>
+          <li class="grey" id="price"> <b> price </b>  </li>
+          <li class="grey"><a href="#" class="button1" > <button id="buy" onclick="buy()">buy now</button> </a></li>
+          <li class="grey"><a href="#" class="button1" ><button id="remove" onclick="remove()"> remove</button> </a></li>
+        </ul>
+      </div>
+    
+</body>
+</html
