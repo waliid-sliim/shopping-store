@@ -1,6 +1,6 @@
 /*css file*/
 .container{
-    top:50%;
+    top:70%;
     left:50%;
     transform: translate(-50%,-50%);
     position: absolute;
@@ -12,9 +12,10 @@
     text-align:center;
     display: inline-block;
     margin: 5px; 
+    
 }
 .card img {
-    width :300px;
+    width :250px;
     padding: 5px;
 }
 .title1{
@@ -55,11 +56,11 @@ button:hover{
   
   .columns {
     
-  justify-content: center;
-  align-items: center;
-    float: center;
-    width: ;
-    padding: 8px;
+  
+    height: 313px;
+  width: 313px ;
+    
+    
   }
   
   .price {
@@ -71,9 +72,7 @@ button:hover{
     transition: 0.3s;
   }
   
-  .price:hover {
-    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
-  }
+  
   
   .price .header {
     background-color: #111;
@@ -83,7 +82,7 @@ button:hover{
   
   .price li {
     border-bottom: 1px solid #eee;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
@@ -92,7 +91,7 @@ button:hover{
     font-size: 20px;
   }
   
-  .button {
+  .button1 {
     background-color: #04AA6D;
     border: none;
     color: white;

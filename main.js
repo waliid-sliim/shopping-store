@@ -3,28 +3,38 @@ var sum=0
 function addToCart(){
 sum=sum+array[0]
 console.log(sum)
-$("#price").append("<b>" + sum + ' DT' + "<b/>")
+$("#price").empty()
+$("#price").append("<b>" + 'price ' +sum + ' DT' + "<b/>")
 
 }
 function addToCart1(){
-    $("#price").empty()
+    
 
-    sum=sum+array[1]
+    sum= sum+array[1]
     console.log(sum)
+    $("#price").empty()
 
     $("#price").append("<b>" + 'price '+ sum + ' DT'+ "<b/>")
     }
     function addToCart2(){
-        $("#price").empty()
-    
-        sum=sum+array[2]
+        
+       sum= sum+array[2]
         console.log(sum)
-    
-        $("#price").append("<b>" + 'price '+ sum + ' DT'+ "<b/>")
+        $("#price").empty()
+    $("#price").append("<b>" + 'price '+ sum + 'DT'+ "<b/>")
         }
-function remove(){
+function remove(){ 
+
     $("#price").empty()
+    
+    $("#price").append("<b>" + 'price ' +    ' 0 DT' +"<b/>" )
+   
+    sum =0
+
+
 }
-function buy(){
-    window.alert('thanks')
-}
+function buy() {
+    window.location.href="file:///C:/Users/Wissem/OneDrive/Bureau/store project/CARD/CARD.html"
+    
+    ;
+  }

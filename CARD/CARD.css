@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  
+ 
+  
+  body {   
+    background-position: center ;
+    background-image: url('https://i.pinimg.com/736x/55/97/6b/55976b1dd3fb3f99f3f04c61f3756ae7.jpg')
+    
+  }
+  
+  .cc {
+    
+   background-image: url('p.png');
+    border-radius: 20px;
+    height: 310px;
+    margin: 50px;
+    overflow: hidden;
+    padding: space;
+    position: relative;  
+    width: 490px;   
+  }
+  
+  .shine {
+    background: rgba(255,255,255,0.05); 
+    left: 390px; top: 0;
+    margin: 0 15px 0 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+      -webkit-transform: skew(50deg);
+      -moz-transform: skew(50deg);
+      -ms-transform: skew(50deg);
+      -o-transform: skew(50deg);
+      transform: skew(50deg);
+  }
+  
+  .shine-layer-two {
+    -webkit-transform: skew(80deg);
+    -moz-transform: skew(80deg);
+    -ms-transform: skew(80deg);
+    -o-transform: skew(80deg);
+    transform: skew(80deg);
+  }
+  
+  h2 {
+    font: 22px Anaheim; color: #fff;
+    margin: 0 space/2 space/2 0;       padding:0;
+    text-align: right;
+  }
+  
+  span {
+    text-transform: uppercase;
+  }
+  
+  .number, 
+  .date {
+    margin-bottom: space/2;
+  }
+  
+  .provider {
+    display: inline-block;
+    margin: 0 space/2 space/2 0;
+    width: 71px; height: 44px;
+  }
+  
+ 
+  
+  .amex { background-position: 71px 0; }
+  .visa { background-position: 147px 0; }
+  
+   input{ 
+    background: silver; 
+    border: 0;
+    border-radius: 4px;
+    font: 20px Inconsolata, sans-serif; color: #303030;
+    margin: 0 2px 3px 0;
+    padding: 8px space/2;
+    text-align: center;
+    width: 24%; 
+      -moz-box-shadow:    1px 1px 0px 1px #0e306e;
+      -webkit-box-shadow: 1px 1px 0px 1px #0e306e;
+      box-shadow:         1px 1px 0px 1px #0e306e;
+    position: relative;
+    z-index: 10;}
+    
+  .date input {
+    margin-right: space;
+  }
+  
+  .valid {
+    position: relative;
+    margin-right: space/2;
+    width: 40px;
+  }
+  
+  .full-name {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .instructions {
+    letter-spacing: 1px;
+    font: 12px Anaheim , sans-serif; color: lightBlue}
